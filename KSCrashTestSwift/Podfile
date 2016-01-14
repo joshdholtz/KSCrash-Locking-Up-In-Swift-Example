@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'KSCrashTestSwift' do
+	pod 'KSCrash', '~> 0.0.8'
+end
+

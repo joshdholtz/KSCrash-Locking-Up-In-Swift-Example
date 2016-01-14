@@ -1,0 +1,6 @@
+framework module Pods_KSCrashTestObjC {
+  umbrella header "Pods-KSCrashTestObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E9EFDF1C4757A300D013E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9EFDE1C4757A300D013E1 /* AppDelegate.swift */; };
+		03E9EFE11C4757A300D013E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9EFE01C4757A300D013E1 /* ViewController.swift */; };
+		03E9EFE41C4757A300D013E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E9EFE21C4757A300D013E1 /* Main.storyboard */; };
+		03E9EFE61C4757A300D013E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E9EFE51C4757A300D013E1 /* Assets.xcassets */; };
+		03E9EFE91C4757A300D013E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E9EFE71C4757A300D013E1 /* LaunchScreen.storyboard */; };
+		8D48F1D733D5EA2EC947FE0C /* Pods_KSCrashTestSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F4F30E3FE51AE913126928 /* Pods_KSCrashTestSwift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03E9EFDB1C4757A300D013E1 /* KSCrashTestSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSCrashTestSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E9EFDE1C4757A300D013E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03E9EFE01C4757A300D013E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03E9EFE31C4757A300D013E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03E9EFE51C4757A300D013E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03E9EFE81C4757A300D013E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03E9EFEA1C4757A300D013E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B50510AF7738D522FB9886D /* Pods-KSCrashTestSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCrashTestSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KSCrashTestSwift/Pods-KSCrashTestSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		71F4F30E3FE51AE913126928 /* Pods_KSCrashTestSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSCrashTestSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F803C18733F42BDF4EFA8983 /* Pods-KSCrashTestSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCrashTestSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-KSCrashTestSwift/Pods-KSCrashTestSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E9EFD81C4757A300D013E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D48F1D733D5EA2EC947FE0C /* Pods_KSCrashTestSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E9EFD21C4757A200D013E1 = {
+			isa = PBXGroup;
+			children = (
+				03E9EFDD1C4757A300D013E1 /* KSCrashTestSwift */,
+				03E9EFDC1C4757A300D013E1 /* Products */,
+				ACA9A50F1F3595719C85E8B8 /* Pods */,
+				A9644797F226A5188EAE3BA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03E9EFDC1C4757A300D013E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E9EFDB1C4757A300D013E1 /* KSCrashTestSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E9EFDD1C4757A300D013E1 /* KSCrashTestSwift */ = {
+			isa = PBXGroup;
+			children = (
+				03E9EFDE1C4757A300D013E1 /* AppDelegate.swift */,
+				03E9EFE01C4757A300D013E1 /* ViewController.swift */,
+				03E9EFE21C4757A300D013E1 /* Main.storyboard */,
+				03E9EFE51C4757A300D013E1 /* Assets.xcassets */,
+				03E9EFE71C4757A300D013E1 /* LaunchScreen.storyboard */,
+				03E9EFEA1C4757A300D013E1 /* Info.plist */,
+			);
+			path = KSCrashTestSwift;
+			sourceTree = "<group>";
+		};
+		A9644797F226A5188EAE3BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71F4F30E3FE51AE913126928 /* Pods_KSCrashTestSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACA9A50F1F3595719C85E8B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B50510AF7738D522FB9886D /* Pods-KSCrashTestSwift.debug.xcconfig */,
+				F803C18733F42BDF4EFA8983 /* Pods-KSCrashTestSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E9EFDA1C4757A300D013E1 /* KSCrashTestSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E9EFED1C4757A300D013E1 /* Build configuration list for PBXNativeTarget "KSCrashTestSwift" */;
+			buildPhases = (
+				9DE5B51AB43EA873D1D72B6A /* Check Pods Manifest.lock */,
+				03E9EFD71C4757A300D013E1 /* Sources */,
+				03E9EFD81C4757A300D013E1 /* Frameworks */,
+				03E9EFD91C4757A300D013E1 /* Resources */,
+				B25BCFCE76BAE26372FB938D /* Embed Pods Frameworks */,
+				0DE703B73612D8C66437EA9B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSCrashTestSwift;
+			productName = KSCrashTestSwift;
+			productReference = 03E9EFDB1C4757A300D013E1 /* KSCrashTestSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E9EFD31C4757A200D013E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Josh Holtz";
+				TargetAttributes = {
+					03E9EFDA1C4757A300D013E1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 03E9EFD61C4757A200D013E1 /* Build configuration list for PBXProject "KSCrashTestSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03E9EFD21C4757A200D013E1;
+			productRefGroup = 03E9EFDC1C4757A300D013E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E9EFDA1C4757A300D013E1 /* KSCrashTestSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E9EFD91C4757A300D013E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E9EFE91C4757A300D013E1 /* LaunchScreen.storyboard in Resources */,
+				03E9EFE61C4757A300D013E1 /* Assets.xcassets in Resources */,
+				03E9EFE41C4757A300D013E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DE703B73612D8C66437EA9B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSCrashTestSwift/Pods-KSCrashTestSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE5B51AB43EA873D1D72B6A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B25BCFCE76BAE26372FB938D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KSCrashTestSwift/Pods-KSCrashTestSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E9EFD71C4757A300D013E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E9EFE11C4757A300D013E1 /* ViewController.swift in Sources */,
+				03E9EFDF1C4757A300D013E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03E9EFE21C4757A300D013E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E9EFE31C4757A300D013E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03E9EFE71C4757A300D013E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E9EFE81C4757A300D013E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E9EFEB1C4757A300D013E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03E9EFEC1C4757A300D013E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E9EFEE1C4757A300D013E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B50510AF7738D522FB9886D /* Pods-KSCrashTestSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSCrashTestSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshholtz.KSCrashTestSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03E9EFEF1C4757A300D013E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F803C18733F42BDF4EFA8983 /* Pods-KSCrashTestSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KSCrashTestSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshholtz.KSCrashTestSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E9EFD61C4757A200D013E1 /* Build configuration list for PBXProject "KSCrashTestSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E9EFEB1C4757A300D013E1 /* Debug */,
+				03E9EFEC1C4757A300D013E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E9EFED1C4757A300D013E1 /* Build configuration list for PBXNativeTarget "KSCrashTestSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E9EFEE1C4757A300D013E1 /* Debug */,
+				03E9EFEF1C4757A300D013E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E9EFD31C4757A200D013E1 /* Project object */;
+}
